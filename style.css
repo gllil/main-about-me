@@ -1,0 +1,66 @@
+body {
+    background-color: #5DBCD2;
+    font-family: 'Spartan', ;
+}
+
+.name-title {
+    color: #5DBCD2;
+    font-size: xx-large;
+}
+
+.nav-link {
+    color: #5DBCD2;
+    font-size: large;
+}
+
+nav {
+    min-height: auto;
+}
+
+.profile-photo {
+   border-radius: 50%; 
+   box-shadow: 3px 3px 5px #888888;
+   width: 200px;
+   margin: 20px;
+}
+
+p {
+    font-family: 'Spartan', ;
+}
+
+.about-me {
+    margin: 20px;
+    /* padding: 20px; */
+}
+
+.about-me-container {
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #888888;
+    background-color: #ADF6B1;
+    margin-top: 20px;
+}
+
+hr {
+    border: 1px solid;
+    opacity: 50%;
+}
+
+.about-me-title {
+    color: #5DBCD2;
+}
+
+.portfolio-display {
+    padding: 20px;
+    margin: 20px;
+    height: max-content;
+}
+
+.contact-form {
+    margin: 20px;
+}
+
+.mobile-side {
+    color: #717C89;
+    background-color: #90BAAD;
+}
+
