@@ -21,7 +21,8 @@ nav {
    border-radius: 50%; 
    box-shadow: 3px 3px 5px #888888;
    width: 200px;
-   margin: 20px;
+   margin-top: 20px;
+   margin-left: 0px;
 }
 
 p {
@@ -34,7 +35,7 @@ p {
 }
 
 .about-me-container {
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 3px 3px 5px #888888;
     background-color: #ADF6B1;
     margin-top: 20px;
@@ -57,6 +58,16 @@ hr {
 
 .contact-form {
     margin: 20px;
+    background-color: #ADF6B1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #888888;
+
+}
+
+.slides {
+    background-color: none;
 }
 
 .mobile-side {
@@ -64,3 +75,23 @@ hr {
     background-color: #90BAAD;
 }
 
+.project-section {
+    margin: 20px;
+    background-color: #ADF6B1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.project-image {
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.proj-description-title {
+color: #5DBCD2;
+}
+
+h4 {
+    font-weight: bolder;
+}

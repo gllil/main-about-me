@@ -9,10 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
-    <script src="https://kit.fontawesome.com/14111279f9.js" crossorigin="anonymous"></script>
-    
     <link rel="stylesheet" href="style.css">
-    
+    <script src="https://kit.fontawesome.com/14111279f9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="grey darken-2">
@@ -26,44 +24,97 @@
           </ul>
         </div>
       </nav>
+
       <ul class="sidenav mobile-side" id="mobile-demo">
         <li><a class="nav-link" href="index.html">About Me</a></li>
         <li><a class="nav-link"  href="portfolio.html">Portfolio</a></li>
         <li><a class="nav-link"  href="contact.html">Contact Me</a></li>
       </ul>
+
       <div class="container">
-        <div class="row">
-            <div class="col s12 portofolio-display">
-            <div class="carousel center">
-                <a class="carousel-item center" href="https://gllil.github.io/rvm-grp-proj-1/" target="_blank"><img src="assets/Actors-Profile.PNG" width="250"><h5 class="black-text">Actors Profile</h5></a>
-                <a class="carousel-item center" href="https://gllil.github.io/weather-dashboard/" target="_blank"><img src="assets/weather-dashboard.PNG" width="250"><h5 class="black-text">Weather Dashboard</h5></a>
-                <a class="carousel-item center" href="https://gllil.github.io/PasswordGenerator/" target="_blank"><img src="assets/Password-Generator.PNG" width="250"><h5 class="black-text">Password Generator</h5></a>
-              </div>
+        <div class="row center project-section grey-text text-darken-2">
+          <div class="col s12 m6">
+            <div class="row">
+              <h4 class="proj-description-title">Actors Profile</h4>
+                <a href="https://gllil.github.io/rvm-grp-proj-1/" target="_blank"><img src="assets/Actors-Profile.PNG" alt="Actors Profile page image" width="200" class="project-image"></a>
+                <p>This web application allows you to search any actor and findout more information about them. It gives a brief bio, shows movies known for and a synopsis, and recent news about the actor.</p>
             </div>
-            <!-- <div class="carousel carousel-slider center ">
-                <div class="carousel-fixed-item center">
-                  <a class="btn waves-effect white grey-text darken-text-2">button</a>
-                </div>
-                <div class="carousel-item red white-text" href="https://gllil.github.io/rvm-grp-proj-1/">
-                  <h2>Actors Profile</h2>
-                  <p class="white-text">This is your first panel</p>
-                </div>
-                <div class="carousel-item amber white-text" href="#two!">
-                  <h2>Second Panel</h2>
-                  <p class="white-text">This is your second panel</p>
-                </div>
-                <div class="carousel-item green white-text" href="#three!">
-                  <h2>Third Panel</h2>
-                  <p class="white-text">This is your third panel</p>
-                </div>
-                <div class="carousel-item blue white-text" href="#four!">
-                  <h2>Fourth Panel</h2>
-                  <p class="white-text">This is your fourth panel</p>
-                </div>
-              </div> -->
+              <div class="row">
+                <h5 class="proj-description-title">Technologies Used</h5>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>Google Maps API</li>
+                  <li>The Movie Database API</li>
+                </ul>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <h5 class="proj-description-title">My Role</h5>
+              <p>I partly assisted in creating some of the JavaScript code. I worked on the CSS styling using materialize CSS.</p>
+            <h5 class="proj-description-title">Project Difficulties</h5>
+              <p>Creating the google maps API was particularly challenging. Getting a API key is quite the process and not as easy as other API's. The second was getting it to show correctly and removing all of the additional clutter around the map.</p>
+            <h5 class="proj-description-title">My Solution</h5>
+              <p>After extensive research and help from my team, we were able activate our API key with Google. We were able to research and follow the instructions for what code was necessary to remove additional buttons on the map.</p>
+          </div>
+        </div>
+        <!-- <hr class="grey darken-2"> -->
+        <div class="row center project-section grey-text text-darken-2">
+          <div class="col s12 m6">
+            <div class="row">
+              <h4 class="proj-description-title">Password Generator</h4>
+                <a href="https://gllil.github.io/PasswordGenerator/" target="_blank"><img src="assets/Password-Generator.PNG" alt="Password Generator Page Image" width="200" class="project-image"></a>
+                <p>This app allows you to create and customize a password of your choosing. It allows you to copy the password to your clipboard.</p>
+            </div>
+              <div class="row">
+                <h5 class="proj-description-title">Technologies Used</h5>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <h5 class="proj-description-title">My Role</h5>
+              <p>This was a homework assignment that help us learn some basic JavaScript functions.</p>
+            <h5 class="proj-description-title">Project Difficulties</h5>
+              <p>My main difficulty was finding the best way to randomize the different types of characters needed for the password and filter out any criteria not requested.</p>
+            <h5 class="proj-description-title">My Solution</h5>
+              <p>I realized the simplest way was the easiest way. I made Arrays of every type of character. Based on the input if it was true it would include it and if it was false it would not include the character. We used Math Random to randomize and return based on the length requested.</p>
+          </div>
+        </div>
+        <!-- <hr class="grey darken-2"> -->
+        <div class="row center project-section grey-text text-darken-2">
+          <div class="col s12 m6">
+            <div class="row">
+              <h4 class="proj-description-title">Weather Dashboard</h4>
+                <a href="https://gllil.github.io/weather-dashboard/" target="_blank"><img src="assets/weather-dashboard.PNG" alt="weather dashboard page image" width="200" class="project-image"></a>
+                <p>This application allows you to input a city and it will show you the current weather of that city and also a five day forecast.</p>
+            </div>
+              <div class="row">
+                <h5 class="proj-description-title">Technologies Used</h5>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Open Weather API</li>
+                </ul>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <h5 class="proj-description-title">My Role</h5>
+              <p>This was an assignment given in class. It was an individual effort. I created it from the ground up.</p>
+            <h5 class="proj-description-title">Project Difficulties</h5>
+              <p>The challenge I ran into was that taking the dates from the API that were in unix code and convert that into a readable date. I also had trouble with setting up click events.</p>
+            <h5 class="proj-description-title">My Solution</h5>
+              <p></p>
+          </div>
         </div>
       </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js" ></script>
 </body>

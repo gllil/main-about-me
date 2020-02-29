@@ -26,48 +26,48 @@
           </ul>
         </div>
       </nav>
+
       <ul class="sidenav mobile-side" id="mobile-demo">
         <li><a class="nav-link" href="index.html">About Me</a></li>
         <li><a class="nav-link"  href="portfolio.html">Portfolio</a></li>
         <li><a class="nav-link"  href="contact.html">Contact Me</a></li>
       </ul>
+
       <div class="container">
       <div class="row contact-form">
-        <form class="col s12">
+        <form class="col s12 ">
           <div class="row text-black">
             <div class="input-field col s12">
-              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-              <label for="first_name">First Name</label>
-            </div>
-            <!-- <div class="input-field col s6">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Last Name</label>
-            </div> -->
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-              <label for="disabled">Disabled</label>
+              <input placeholder="Ex: John Doe" id="first_name" type="text" class="validate">
+              <label for="first_name">Name</label>
             </div>
           </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Password</label>
-            </div>
-          </div>
+
           <div class="row">
             <div class="input-field col s12">
               <input id="email" type="email" class="validate">
-              <label for="email">Email</label>
+              <label for="email">Email Address</label>
             </div>
           </div>
+
+
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Message</label>
+            </div>
+          </div>
+
+          <button class="btn waves-effect waves-light grey darken-1 right" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+
 
         </form>
       </div>
     </div>
             
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js" ></script>
 </body>
