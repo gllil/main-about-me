@@ -1,7 +1,13 @@
 body {
     background-color: #5DBCD2;
-    font-family: 'Spartan', ;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; 
 }
+
+  main {
+    flex: 1 0 auto;
+  }
 
 .name-title {
     color: #5DBCD2;
@@ -94,4 +100,18 @@ color: #717C89;
 
 h4 {
     font-weight: bolder;
+}
+
+i {
+    color: #717C89;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.copyright {
+    margin: auto;
+}
+
+.linksIcon {
+    color: #5DBCD2;
 }
