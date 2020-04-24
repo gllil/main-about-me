@@ -10,4 +10,4 @@ https://gllil.github.io/main-about-me/
 
 # Image
 
-<img src="https://github.com/gllil/main-about-me/blob/master/assets/UpdatedAboutMe.PNG">
+<img src="https://github.com/gllil/main-about-me/blob/master/public/assets/UpdatedAboutMe.PNG">
