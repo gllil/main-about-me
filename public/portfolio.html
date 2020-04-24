@@ -16,23 +16,54 @@
   <main>
     <nav class="grey darken-2">
         <div class="nav-wrapper container">
-          <a href="index.html" class="right name-title">Gary Llil</a>
+          <a href="/" class="right name-title">Gary Llil</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a class="nav-link" href="index.html">About Me</a></li>
-            <li><a class="nav-link"  href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-link"  href="contact.html">Contact Me</a></li>
+            <li><a class="nav-link" href="/">About Me</a></li>
+            <li><a class="nav-link"  href="/portfolio">Portfolio</a></li>
+            <li><a class="nav-link"  href="/contact">Contact Me</a></li>
           </ul>
         </div>
       </nav>
 
       <ul class="sidenav mobile-side" id="mobile-demo">
-        <li><a class="nav-link" href="index.html">About Me</a></li>
-        <li><a class="nav-link"  href="portfolio.html">Portfolio</a></li>
-        <li><a class="nav-link"  href="contact.html">Contact Me</a></li>
+        <li><a class="nav-link" href="/">About Me</a></li>
+        <li><a class="nav-link"  href="/portfolio">Portfolio</a></li>
+        <li><a class="nav-link"  href="/contact">Contact Me</a></li>
       </ul>
 
       <div class="container">
+        <div class="row center project-section grey-text text-darken-2">
+          <div class="col s12 m6">
+            <div class="row">
+              <h4 class="proj-description-title">Pawty Time!</h4>
+                <a href="https://pawtytime.herokuapp.com/" target="_blank"><img src="assets/pawtytime.PNG" alt="Actors Profile page image" width="200" class="project-image"></a>
+                <p>This application allows dog owners and dog walkers to schedule walks for their dogs. Dog owners can add or delete dogs and use or cancel appointments. Dog Walkers can add or delete time slots.</p>
+            </div>
+              <div class="row">
+                <h5 class="proj-description-title">Technologies Used</h5>
+                <ul>
+                  <li>HTML</li>
+                  <li>Materliaze CSS</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>Sequelize/MySQL</li>
+                  <li>Dog CEO API</li>
+                  <li>Node Express</li>
+                </ul>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <h5 class="proj-description-title">My Role</h5>
+              <p>I worked on creating the UI design, functionality, and linking it with the back end.</p>
+            <h5 class="proj-description-title">Project Difficulties</h5>
+              <p>Getting the back end connected to the front end was particularly chanllenging. Ajax calls and referencing the UI elements to them.</p>
+            <h5 class="proj-description-title">My Solution</h5>
+              <p>With help from my peers and teaching assistants I was able to find a solution for many of these referencing issues.</p>
+              <div><a href="https://github.com/hotwasubi/pawtyTime" target="_blank"><i class="fab fa-github fa-2x z-depth-3 git"></i></a></div>
+          </div>
+        </div>
+
         <div class="row center project-section grey-text text-darken-2">
           <div class="col s12 m6">
             <div class="row">
@@ -59,7 +90,7 @@
               <p>Creating the google maps API was particularly challenging. Getting a API key is quite the process and not as easy as other API's. The second was getting it to show correctly and removing all of the additional clutter around the map.</p>
             <h5 class="proj-description-title">My Solution</h5>
               <p>After extensive research and help from my team, we were able activate our API key with Google. We were able to research and follow the instructions for what code was necessary to remove additional buttons on the map.</p>
-              <div><a href="https://github.com/gllil/rvm-grp-proj-1" target="_blank"><i class="fab fa-github medium z-depth-3 git"></i></a></div>
+              <div><a href="https://github.com/gllil/rvm-grp-proj-1" target="_blank"><i class="fab fa-github fa-2x z-depth-3 git"></i></a></div>
           </div>
         </div>
         <!-- <hr class="grey darken-2"> -->
@@ -86,7 +117,7 @@
               <p>My main difficulty was finding the best way to randomize the different types of characters needed for the password and filter out any criteria not requested.</p>
             <h5 class="proj-description-title">My Solution</h5>
               <p>I realized the simplest way was the easiest way. I made Arrays of every type of character. Based on the input if it was true it would include it and if it was false it would not include the character. We used Math Random to randomize and return based on the length requested.</p>
-              <div><a href="https://github.com/gllil/PasswordGenerator" target="_blank"><i class="fab fa-github medium z-depth-3 git"></i></a></div>
+              <div><a href="https://github.com/gllil/PasswordGenerator" target="_blank"><i class="fab fa-github fa-2x z-depth-3 git"></i></a></div>
           </div>
         </div>
         <!-- <hr class="grey darken-2"> -->
@@ -114,7 +145,7 @@
               <p>The challenge I ran into was that taking the dates from the API that were in unix code and convert that into a readable date. I also had trouble with setting up click events.</p>
             <h5 class="proj-description-title">My Solution</h5>
               <p>With much research I was able to find a method of converting the unix code. I put it in a function and ran it. I was also able to localize the click event so it would work properly.</p>
-              <div><a href="https://github.com/gllil/weather-dashboard" target="_blank"><i class="fab fa-github medium z-depth-3 git"></i></a></div>
+              <div><a href="https://github.com/gllil/weather-dashboard" target="_blank"><i class="fab fa-github fa-2x z-depth-3 git"></i></a></div>
           </div>
         </div>
       </div>
@@ -127,8 +158,8 @@
                 
                 <div class="row">
                   <div class="col s12 center">
-                <a href="https://github.com/gllil" target="_blank"><i class="fab fa-github small linksIcon"></i></a>
-                <a href="https://www.linkedin.com/in/gary-llil-17012746/" target="_blank"><i class="fab fa-linkedin small linksIcon"></i></a>
+                <a href="https://github.com/gllil" target="_blank"><i class="fab fa-github fa-2x linksIcon"></i></a>
+                <a href="https://www.linkedin.com/in/gary-llil-17012746/" target="_blank"><i class="fab fa-linkedin fa-2x linksIcon"></i></a>
                   </div>
                 </div>
                 <div class="center"> © Copyright 2020 </div>
@@ -137,8 +168,9 @@
           </div>
         </div>
       </footer>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js" ></script>
+    <script type="text/javascript" src="js/script.js" ></script>
 </body>
 </html>

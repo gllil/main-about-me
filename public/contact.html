@@ -11,7 +11,7 @@
     <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
     <script src="https://kit.fontawesome.com/14111279f9.js" crossorigin="anonymous"></script>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
@@ -21,32 +21,32 @@
           <a href="index.html" class="right name-title">Gary Llil</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a class="nav-link" href="index.html">About Me</a></li>
-            <li><a class="nav-link"  href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-link"  href="contact.html">Contact Me</a></li>
+            <li><a class="nav-link" href="/">About Me</a></li>
+            <li><a class="nav-link"  href="/portfolio">Portfolio</a></li>
+            <li><a class="nav-link"  href="/contact">Contact Me</a></li>
           </ul>
         </div>
       </nav>
 
       <ul class="sidenav mobile-side" id="mobile-demo">
-        <li><a class="nav-link" href="index.html">About Me</a></li>
-        <li><a class="nav-link"  href="portfolio.html">Portfolio</a></li>
-        <li><a class="nav-link"  href="contact.html">Contact Me</a></li>
+        <li><a class="nav-link" href="/">About Me</a></li>
+        <li><a class="nav-link"  href="/portfolio">Portfolio</a></li>
+        <li><a class="nav-link"  href="/contact">Contact Me</a></li>
       </ul>
 
       <div class="container">
-      <div class="row contact-form">
-        <form class="col s12 ">
+      <div class="row contact-form" >
+        <form class="col s12 " id="contact-form" method="POST" action="send">
           <div class="row text-black">
             <div class="input-field col s12">
-              <input placeholder="Ex: John Doe" id="first_name" type="text" class="validate">
-              <label for="first_name">Name</label>
+              <input placeholder="Ex: John Doe" type="text" name="name" class="validate">
+              <label for="name">Name</label>
             </div>
           </div>
 
           <div class="row">
             <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
+              <input type="email" name="email" class="validate">
               <label for="email">Email Address</label>
             </div>
           </div>
@@ -54,12 +54,12 @@
 
           <div class="row">
             <div class="input-field col s12">
-              <textarea id="textarea1" class="materialize-textarea"></textarea>
-              <label for="textarea1">Message</label>
+              <textarea class="materialize-textarea" name="message"></textarea>
+              <label for="message">Message</label>
             </div>
           </div>
 
-          <button class="btn waves-effect waves-light grey darken-1 right" type="submit" name="action">Submit
+          <button class="btn waves-effect waves-light grey darken-1 right" type="submit">Submit
             <i class="material-icons right">send</i>
           </button>
 
@@ -76,8 +76,8 @@
               
               <div class="row">
                 <div class="col s12 center">
-              <a href="https://github.com/gllil" target="_blank"><i class="fab fa-github small linksIcon"></i></a>
-              <a href="https://www.linkedin.com/in/gary-llil-17012746/" target="_blank"><i class="fab fa-linkedin small linksIcon"></i></a>
+              <a href="https://github.com/gllil" target="_blank"><i class="fab fa-github fa-2x linksIcon"></i></a>
+              <a href="https://www.linkedin.com/in/gary-llil-17012746/" target="_blank"><i class="fab fa-linkedin fa-2x linksIcon"></i></a>
                 </div>
               </div>
               <div class="center"> © Copyright 2020 </div>
@@ -86,9 +86,11 @@
         </div>
       </div>
     </footer>
-            
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>       
+    <script type="text/javascript">(function(){emailjs.init('user_oF9L7nlaxkPZya126fNPf')})()</script>
+    <script type="text/javascript" src="js/script.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js" ></script>
 </body>
 </html>
