@@ -2,7 +2,7 @@
 
 # Description
 
-This will be my main about me page. You will find my out a little bit about me and and will see my portfolio of work I have done currently.
+This will be my main about me page. You will find my out a little bit about me and and will see my portfolio of work I have done currently. The contact page is fully functional.
 
 # Link
 
