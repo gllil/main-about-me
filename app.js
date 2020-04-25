@@ -25,9 +25,6 @@ app.get("/contact", (req, res) => {
 });
 
 app.post("/send", (req, res) => {
-    const nameInput = req.body.name;
-    const emailInput = req.body.email;
-    const msgInput = req.body.message;
 
 
     const output = `
@@ -63,12 +60,13 @@ app.post("/send", (req, res) => {
     
         console.log("Message sent: %s", info.messageId);
         console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-  
+          
     }
 
 main().catch(console.error);
 
-res.redirect("/contact")
+// res.redirect("/contact")
+
   
 })
 app.listen(PORT, () => console.log("Server started..."));

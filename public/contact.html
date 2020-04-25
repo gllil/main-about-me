@@ -39,14 +39,14 @@
         <form class="col s12 " id="contact-form" method="POST" action="send">
           <div class="row text-black">
             <div class="input-field col s12">
-              <input placeholder="Ex: John Doe" type="text" name="name" class="validate nameInfo">
+              <input placeholder="Ex: John Doe" type="text" name="name" class="validate nameInfo" required>
               <label for="name">Name</label>
             </div>
           </div>
 
           <div class="row">
             <div class="input-field col s12">
-              <input type="email" name="email" class="validate emailInfo">
+              <input type="email" name="email" class="validate emailInfo" required>
               <label for="email">Email Address</label>
             </div>
           </div>
@@ -54,7 +54,7 @@
 
           <div class="row">
             <div class="input-field col s12">
-              <textarea class="materialize-textarea messageInfo" name="message"></textarea>
+              <textarea class="materialize-textarea messageInfo" name="message" required></textarea>
               <label for="message">Message</label>
             </div>
           </div>
@@ -65,6 +65,22 @@
 
 
         </form>
+      </div>
+    </div>
+    <div id="errorMessage" class="modal">
+      <div class="modal-content">
+                <p>Form must be filled before sending</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat errorCloseBtn">Close</a>
+      </div>
+    </div>
+    <div id="successMessage" class="modal">
+      <div class="modal-content">
+                <p>Message Sent Successfully</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat closeBtn">Close</a>
       </div>
     </div>
   </main>
@@ -86,10 +102,10 @@
         </div>
       </div>
     </footer>
-
-    <script type="text/javascript" src="js/script.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js" ></script>
 </body>
 </html>

@@ -23,6 +23,7 @@
     "email": "^0.2.6",
     "emailjs-com": "^2.4.1",
     "express": "^4.17.1",
+    "materialize-css": "^1.0.0-rc.2",
     "nodemailer": "^6.4.6"
   }
 }
