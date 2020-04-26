@@ -6,7 +6,7 @@ This will be my main about me page. You will find my out a little bit about me a
 
 # Link
 
-https://gllil.github.io/main-about-me/
+https://aboutgl.herokuapp.com/
 
 # Image
 
